@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class DecodeString{
 
     private static String decodeString(String s){
@@ -51,7 +50,6 @@ public class DecodeString{
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-//        String s = "jk22[1[a4[b2[c]cd]2[c]]]xyz";
         String s = "jk3[b2[ca]11[d]]xy";
         System.out.println("encoded string : " + s);
         System.out.println("original string : " + decodeString(s));
@@ -65,6 +63,5 @@ public class DecodeString{
                 System.out.print("You input wrong type code, please re-input: ");
             }
         }
-
     }
 }
